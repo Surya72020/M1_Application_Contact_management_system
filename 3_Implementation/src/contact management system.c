@@ -35,15 +35,15 @@ main:
         {
             fflush(stdin);
             printf("To exit enter blank space in the name input\nName :");
-            scanf("%[^\n]",&list.name);
+            scanf("%s",&list.name);
             if(stricmp(list.name,"")==0 || stricmp(list.name," ")==0)
                 break;
             fflush(stdin);
             printf("Phone:");
-            scanf("%[^\n]",list.ph);
+            scanf("%s",list.ph);
             fflush(stdin);
             printf("address:");
-            scanf("%[^\n]",&list.add);
+            scanf("%s",&list.add);
             fflush(stdin);
             printf("email address:");
             gets(list.email);
@@ -85,7 +85,7 @@ main:
             found=0;
             printf("\n\n\t..::CONTACT SEARCH\n\t===========================\n\t..::Name of contact to search: ");
             fflush(stdin);
-            scanf("%[^\n]",&query);
+            scanf("%s",&query);
             l=strlen(query);
             fp=fopen("contact.txt","r");
             system("cls");
@@ -123,7 +123,7 @@ main:
         ft=fopen("temp.txt","w");
         fflush(stdin);
         printf("..::Edit contact\n===============================\n\n\t..::Enter the name of contact to edit:");
-        scanf("%[^\n]",name);
+        scanf("%s",name);
         while(fread(&list,sizeof(list),1,fp)==1)
         {
             if(stricmp(name,list.name)!=0)
@@ -154,7 +154,7 @@ main:
         system("cls");
         fflush(stdin);
         printf("\n\n\t..::DELETE A CONTACT\n\t==========================\n\t..::Enter the name of contact to delete:");
-        scanf("%[^\n]",&name);
+        scanf("%s",&name);
         fp=fopen("contact.txt","r");
         ft=fopen("temp.txt","w");
         while(fread(&list,sizeof(list),1,fp)!=0)
