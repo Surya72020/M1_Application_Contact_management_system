@@ -4,16 +4,16 @@
  ## Research
 The Contact Management System was created in a simple console application, the system can be access without providing any login information. The user can do a lot of task in the system in the system, he/she can add new contact, list all contact, search person detail, and delete person record. The system contains function that can manage the contact information being stored in the system. The user can update the current contact information. The entered data are stored as a text extension file in the system folder. The Contact Management System was developed in as a basic coding structure of C that can teach even without programming experience.
  ## Features
-- Add new Contact
-- List All Contact
-- Search for Contact
-- Edit a Contact
-- Delete a Contact
+-   Add new Contact
+-   List All Contact
+-   Search for Contact
+-   Edit a Contact
+-   Delete a Contact
  ## SWOT Analysis
-- This project will be very useful for findig& storing the contacts.
-- Easy to know where the contact store.
-- Work becomes very easily & speedly & easy to edit the information.
-- The biggest disadvantage of online accounting is that you can no longer do without the internet.
+-   This project will be very useful for findig& storing the contacts.
+-   Easy to know where the contact store.
+-   Work becomes very easily & speedly & easy to edit the information.
+-   The biggest disadvantage of online accounting is that you can no longer do without the internet.
  ## 4W's and 1'H
 
 What : Contact Management is essential for keeping digital records of customer data.
